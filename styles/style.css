@@ -145,3 +145,36 @@ height: 92.958px;
     font-size: 20px;
     font-weight: 500;
 }
+
+/* product section  */
+.product-section{
+    background-color: #FFF;
+    
+}
+
+.product-service{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1140px;
+height: 300px;
+margin:  0 auto;
+
+}
+
+
+.product-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+  margin: 59px 616px 24px 64px ;
+  padding-top: 50px ;
+}
+.contact-us{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    margin-left: 64px;
+}
