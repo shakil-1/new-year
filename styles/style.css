@@ -108,3 +108,40 @@ height: 24px;
 color: #16D887;
 
 }
+
+/* myplan section  */
+.myplan-section{
+   background-color:#FFF;
+}
+.myplan-title{
+  color:  #151414;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+.services-container{
+display: flex;
+justify-content: center;
+padding: 100px 0;
+}
+.service{
+ width: 270px;
+ text-align: center;
+}
+.service  img{
+    width: 92.958px;
+height: 92.958px;
+
+}
+
+.service-title{
+    color: #151414;
+   font-size: 25px;
+    font-weight: 700;
+
+}
+.service-description{
+    color:  #737272;
+    font-size: 20px;
+    font-weight: 500;
+}
