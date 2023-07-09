@@ -61,14 +61,15 @@
 
 
 /* about section  */
-.about-container{
-    background-color:#FFF;
-    
-    
+.about-container {
+    background-color: #FFF;
+
+
 }
-.about-contend{
+
+.about-contend {
     width: 416px;
- margin-left: auto;
+    margin-left: auto;
 }
 
 .about-section {
@@ -82,7 +83,7 @@
     color: #151414;
     font-size: 40px;
     font-weight: 700;
-  margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .about-description {
@@ -95,86 +96,193 @@
     width: 451px;
 
 }
-.about-list li{
-color:  #444343;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
-list-style-type: none;
+
+.about-list li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    list-style-type: none;
 }
-.about-list li i{
+
+.about-list li i {
     width: 24px;
-height: 24px;
-color: #16D887;
+    height: 24px;
+    color: #16D887;
 
 }
 
 /* myplan section  */
-.myplan-section{
-   background-color:#FFF;
-}
-.myplan-title{
-  color:  #151414;
-font-size: 40px;
-font-weight: 700;
-text-align: center;
-}
-.services-container{
-display: flex;
-justify-content: center;
-padding: 100px 0;
-}
-.service{
- width: 270px;
- text-align: center;
-}
-.service  img{
-    width: 92.958px;
-height: 92.958px;
-
+.myplan-section {
+    background-color: #FFF;
 }
 
-.service-title{
+.myplan-title {
     color: #151414;
-   font-size: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.service {
+    width: 270px;
+    text-align: center;
+}
+
+.service img {
+    width: 92.958px;
+    height: 92.958px;
+
+}
+
+.service-title {
+    color: #151414;
+    font-size: 25px;
     font-weight: 700;
 
 }
-.service-description{
-    color:  #737272;
+
+.service-description {
+    color: #737272;
     font-size: 20px;
     font-weight: 500;
 }
 
 /* product section  */
-.product-section{
+.product-section {
     background-color: #FFF;
-    
+    padding-bottom: 150px;
+
 }
 
-.product-service{
+.product-service {
     background-image: url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1140px;
-height: 300px;
-margin:  0 auto;
+    height: 300px;
+    margin: 0 auto;
+
 
 }
 
 
-.product-title{
+.product-title {
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
-  margin: 59px 616px 24px 64px ;
-  padding-top: 50px ;
+    margin: 59px 616px 24px 64px;
+    padding-top: 50px;
 }
-.contact-us{
+
+.contact-us {
     width: 160px;
     height: 64px;
     border-radius: 5px;
     background: #FFF;
     border: 0;
     margin-left: 64px;
+}
+
+/* footer  */
+footer {
+    background-color: #151414;
+    width: 100%;
+    height: 577px;
+    margin: 0 auto;
+  
+    
+}
+
+.footer-container {
+    display: flex;
+    width: 1140px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-service {
+    color: white;
+    width: 485px;
+    margin-left: 230px;
+    margin-top: 130px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.footer-email {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.footer-phone {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.footer-icon i {
+
+    height: 46px;
+
+}
+
+.subcribe {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 31px;
+    background:  #151414;
+   
+}
+
+.footer-service1{
+    display: block;
+  
+    
+}
+.input-email{
+    color:#F3F3F3;
+font-size: 18px;
+font-weight: 400;
+margin-top: 16px;
+border-radius: 8px;
+border: 1px solid #FFF;
+background-color: #151414;
+padding: 21px 158px 22px 21px;
+}
+
+.contact-btn{
+    width: 170.106px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+color: #F15B22;
+font-size: 20px;
+font-weight: 600;
+margin-top: 16px;
 }
