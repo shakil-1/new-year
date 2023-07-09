@@ -1,47 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     width: 160px;
     height: 64px;
     background-color: #F15B22;
     border: none;
     color: #FFF;
-font-size: 20px;
-font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 
-    
+
 }
-.section-title{
-    color:  #151414;
-text-align: right;
-font-size: 65px;
-font-weight: 700;
-margin-top: 216px;
+
+.section-title {
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 216px;
 }
 
 /* create a banner section  */
-.single-column{
-display: flex;
-justify-content: end;
-margin-right: 230px;
+.single-column {
+    display: flex;
+    justify-content: end;
+    margin-right: 230px;
 
 
 
 
 }
-.column-right{
+
+.column-right {
     width: 525px;
 }
-.banner-header{
-   background-image: url(../images/banner/banner1.png);
- background-size: cover;
-   height: 808px;
-   
+
+.banner-header {
+    background-image: url(../images/banner/banner1.png);
+    background-size: cover;
+    height: 808px;
+
 }
-.column-description{
+
+.column-description {
     color: #444343;
     text-align: right;
     font-size: 16px;
@@ -49,10 +54,57 @@ margin-right: 230px;
     line-height: 26px;
     margin: 24px 0;
 }
-.btn-right{
+
+.btn-right {
     text-align: right;
 }
 
-.single-column{
-   
+
+/* about section  */
+.about-container{
+    background-color:#FFF;
+    
+    
+}
+.about-contend{
+    width: 416px;
+ margin-left: auto;
+}
+
+.about-section {
+    background-image: url(../images/person.png);
+    background-repeat: no-repeat;
+    margin: 120px;
+    padding: 200px;
+}
+
+.about-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.about-description {
+    color: #444343;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about-card-img {
+    width: 451px;
+
+}
+.about-list li{
+color:  #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+list-style-type: none;
+}
+.about-list li i{
+    width: 24px;
+height: 24px;
+color: #16D887;
+
 }
